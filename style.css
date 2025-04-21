@@ -1,0 +1,363 @@
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d5dbe1;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #a54112;
+    color: #ffffff;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu-items {
+    display: flex;
+    list-style: none;
+}
+
+.menu-items li {
+    margin-left: 20px;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-items a:hover {
+    color: #0f0e0d;
+}
+
+/* Showcase */
+.showcase-area {
+    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(255, 255, 255, 0.5)), url("https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fffbfb;
+}
+
+.main-title {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Food Menu */
+#food-menu {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-color: #f0e7e7;
+}
+
+#food h2 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #0e372f;
+    margin-bottom: 40px;
+    font-family: 'Caveat', cursive; /* Change the font family to Caveat */
+}
+
+
+.food-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.food-type {
+    flex-basis: calc(33.33% - 40px);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.food-type img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.food-type img:hover {
+    transform: scale(1.05);
+}
+
+.food-description {
+    padding: 50px;
+}
+
+.font-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #136955;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+}
+
+.food-description p {
+    font-size: 2rem;
+    color: #6f0a0a;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-family: 'Caveat', 'Courier New', Courier, monospace;
+}
+
+.food-price {
+    color: #073c32;
+    font-weight: bold;
+}
+
+
+
+
+/* Contact Us */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+ }
+
+ .header {
+    background-color: #a54112;
+    color: #fff;
+    padding: 10px 0;
+ }
+
+ .header .flex {
+    align-items: center;
+ }
+
+ .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+ }
+
+ .search-form {
+    margin: 0 20px;
+    flex-grow: 1;
+ }
+
+ .search-form input[type="text"] {
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+ }
+
+ .icons .fas {
+    color: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+ }
+
+ .contact {
+    padding: 50px 0;
+    text-align: center;
+ }
+
+ .contact .row {
+    justify-content: center;
+    align-items: center;
+ }
+
+ .contact form {
+    max-width: 500px;
+    margin: auto;
+ }
+
+ .contact form h3 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #343a40;
+ }
+
+ .contact .box-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+ }
+
+ .contact .box {
+    text-align: center;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .contact .box i {
+    font-size: 36px;
+    color: #343a40;
+    margin-bottom: 20px;
+ }
+
+ .contact .box h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #343a40;
+ }
+
+ .contact .box a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+ }
+
+ .contact .box a:hover {
+    color: #007bff;
+ }
+
+ .footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ }
+
+ .footer span {
+    font-weight: bold;
+ }
+
+.footer {
+   background-color: #343a40;
+   color: #fff;
+   text-align: center;
+   padding: 20px 0;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
+
+.footer span {
+   font-weight: bold;
+}
+
+
+ /* styles.css */
+a {
+    color: blue; /* Changes link color */
+    text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+    color: red; /* Changes link color on hover */
+}
+
+/* Testimonial Page Styles */
+
+#testimonials {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .testimonial-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial-box {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .customer-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .customer-photo img {
+    width: 50px; /* Adjust the size of the customer photo */
+    height: 50px; /* Adjust the size of the customer photo */
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .customer-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .star-rating {
+    color: #ffc107; /* Yellow color for stars */
+  }
+  
+  .testimonial-text {
+    color: #666;
+  }
+  
+  /* Contact Section Styles */
+  
+  #contact {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .contact-img img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    border-radius: 10px;
+  }
+  
+
+  
